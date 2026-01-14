@@ -15,7 +15,8 @@ printf("Доход по вкладу: %.2f\n", dohod);
 5. **Конец**
 
 ### Блок-схема
- ![Uploading 2026-01-15 00 17 42.png…]()
+ <img width="405" height="708" alt="2026-01-15 00 17 42" src="https://github.com/user-attachments/assets/064ad162-22fb-4fb8-9ea9-1ea0912f8daa" />
+
 
 ## 2. Реализация программы
 #define _CRT_SECURE_NO_DEPRECATE
@@ -41,7 +42,8 @@ int main()
 }
 
 ## 3. Результаты работы программы
-![Uploading 2026-01-15 00 22 35.png…]()
+<img width="381" height="103" alt="2026-01-15 00 22 35" src="https://github.com/user-attachments/assets/4cebfe72-9c15-4467-8b97-decfb392b69d" />
+
 
 
 
