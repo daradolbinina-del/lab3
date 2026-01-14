@@ -1,16 +1,50 @@
-# Лабораторное занятие 3
+# Домашнее задание к работе 3
+## Условие задачи
+Написать и отладить программу вычисления дохода по вкладу
+(Дано: сумма вклада и процентная ставка);
+## 1. Алгоритм и блок-схема
+### Алгоритм
+1. **Начало**
+2. Ввод входных данных:
+summa — сумма вклада.
+stavka — процентная ставка.
+3. Вычисление дохода:
+dohod = summa * stavka / 100
+4. Вывод результата:
+printf("Доход по вкладу: %.2f\n", dohod);
+5. **Конец**
 
-## Задание 1
-<img width="1093" height="373" alt="image" src="https://github.com/user-attachments/assets/d3d4e616-e7ad-420b-84d7-76afece79b32" />
+### Блок-схема
+ ![Uploading 2026-01-15 00 17 42.png…]()
 
-## Задание 2
-<img width="1113" height="248" alt="image" src="https://github.com/user-attachments/assets/161d7205-daf6-4628-97ba-cb16fc723249" />
+## 2. Реализация программы
+#define _CRT_SECURE_NO_DEPRECATE
+#include <locale.h>
+#include <stdio.h>
 
-## Задание 3
-<img width="656" height="227" alt="image" src="https://github.com/user-attachments/assets/b8df05a6-d7ec-48a9-a3a2-d11545a9cb2f" />
+int main()
+{
+    setlocale(LC_CTYPE, "RUS");
+    float summa, stavka, dohod;
+    
+    printf("Введите сумму вклада: ");
+    scanf("%f", &summa);
+    
+    printf("Введите процентную ставку: ");
+    scanf("%f", &stavka);
+    
+    dohod = summa * stavka / 100;
+    
+    printf("Доход по вкладу: %.2f\n", dohod);
+    
+    return 0;
+}
 
-## Домашнее задание
-<img width="1100" height="258" alt="image" src="https://github.com/user-attachments/assets/9bfc20f6-3b46-40e1-b4c1-1d02b7b4faa7" />
+## 3. Результаты работы программы
+![Uploading 2026-01-15 00 22 35.png…]()
+
+
+
 
 
 
